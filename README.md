@@ -14,10 +14,10 @@
 <br>
 
 ```
-CVEs Published          2          (CVE-2025-55182 · CVE-2026-32230)
-Organizations           14         (Microsoft · Apple · Meta · NASA · OpenAI · JPMC · Infosys …)
+CVEs Published          CVE-2026-32230)
+Organizations           14 (Apple · Meta · NASA · OpenAI · JPMC · Infosys …)
 Certs                   CRTA · ISC² CC · NCPT · OCI Architect
-TryHackMe               Diamond League #1
+TryHackMe               Top 1% | Seven Time League Winner #1
 NCL                     Top 7% National · #1 at Pace
 PortSwigger             100+ Labs
 ```
@@ -28,12 +28,12 @@ PortSwigger             100+ Labs
 
 | Severity | Target | Finding | ID |
 |----------|--------|---------|-----|
-| 🔴 Critical | React / Next.js | RCE via exposed RSC endpoints | `CVE-2025-55182` |
+| 🔴 Critical | React / Next.js | RCE via exposed RSC endpoints on The Economic Time's | `CVE-2025-55182` |
 | 🟡 Medium | Uptime Kuma ★83K | Missing authorization on monitor pings | [`CVE-2026-32230`](https://github.com/louislam/uptime-kuma/security/advisories/GHSA-c7hf-c5p5-5g6h) |
 | ✅ Fixed | Pretix | Log injection via `request_id_header` | [PR #5920](https://github.com/pretix/pretix/pull/5920) |
 | ✅ Fixed | Pretix OIDC | PKCE values logged to stdout | Responsible Disclosure |
-| ✅ Duplicate | n8n | Authorization bypass (IDOR) | [GHSA-vh2p-7mqh-wwhw]([https://github.com/advisories?query=credit%3Akuranikaran](https://github.com/n8n-io/n8n/security/advisories/GHSA-vh2p-7mqh-wwhw)) |
 | ✅ Fixed  | Metabase ★46K | Sharing bypass exposing datasets | [GHSA-j3qp-7mr8-hr55)](https://github.com/metabase/metabase/security/advisories/GHSA-j3qp-7mr8-hr55) |
+| ⿻ Duplicate | n8n | Authorization bypass (IDOR) | [GHSA-vh2p-7mqh-wwhw]([https://github.com/advisories?query=credit%3Akuranikaran](https://github.com/n8n-io/n8n/security/advisories/GHSA-vh2p-7mqh-wwhw)) |
 | 🏆 Hall of Fame | JPMorgan Chase | Internal hostnames in prod JS | Synack RD #690 |
 
 <sub>Additional disclosures to NASA · OpenAI · Microsoft · Mercedes-Benz · Infosys (CERT-In acknowledged)</sub>
