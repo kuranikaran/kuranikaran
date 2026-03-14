@@ -1,13 +1,98 @@
 <div align="center">
-<h1 align="center"><img width="35" src="https://github.com/1999AZZAR/1999AZZAR/blob/main/resources/img/waving.gif">Hey, I'm Karan </h1>
+
+# Karan Kurani
+
+**Security Researcher · Offensive Security · Vulnerability Disclosure**
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=safari&logoColor=white)](https://kuranikaran.github.io/Portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karan-kurani/)
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=16&duration=3000&pause=2000&color=888888&center=true&vCenter=true&repeat=true&width=500&height=24&lines=I+find+real+vulnerabilities+in+real+systems." alt="Typing SVG" />
 
 </div>
 
+<br>
 
+```
+CVEs Published          2          (CVE-2025-55182 · CVE-2026-32230)
+Organizations           14         (Microsoft · Apple · Meta · NASA · OpenAI · JPMC · Infosys …)
+Certs                   CRTA · ISC² CC · NCPT · OCI Architect
+TryHackMe               Diamond League #1
+NCL                     Top 7% National · #1 at Pace
+PortSwigger             100+ Labs
+```
 
------
+<br>
 
-<img width="3008" height="1488" alt="6258FEA3-8924-403D-917A-9B013BFCBD50" src="https://github.com/user-attachments/assets/347a11ea-5432-4988-bb1b-85f20402254a" />
+## CVEs & Credited Findings
 
-https://www.thegitcity.com/?ref=kuranikaran
+| Severity | Target | Finding | ID |
+|----------|--------|---------|-----|
+| 🔴 Critical | React / Next.js | RCE via exposed RSC endpoints | `CVE-2025-55182` |
+| 🟡 Medium | Uptime Kuma ★83K | Missing authorization on monitor pings | [`CVE-2026-32230`](https://github.com/louislam/uptime-kuma/security/advisories/GHSA-c7hf-c5p5-5g6h) |
+| ✅ Fixed | Pretix | Log injection via `request_id_header` | [PR #5920](https://github.com/pretix/pretix/pull/5920) |
+| ✅ Fixed | Pretix OIDC | PKCE values logged to stdout | Responsible Disclosure |
+| ✅ Credited | n8n | Authorization bypass (IDOR) | [GHSA-q468-q2h7-p9cj](https://github.com/advisories?query=credit%3Akuranikaran) |
+| 🔧 Fix WIP | Metabase ★46K | Sharing bypass exposing datasets | Responsible Disclosure |
+| 🏆 Hall of Fame | JPMorgan Chase | Internal hostnames in prod JS | Synack RD #690 |
 
+<sub>Additional disclosures to NASA · OpenAI · Microsoft · Mercedes-Benz · Infosys (CERT-In acknowledged)</sub>
+
+<br>
+
+## Tech
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![JS](https://img.shields.io/badge/JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![PowerShell](https://img.shields.io/badge/PS-5391FE?style=flat-square&logo=powershell&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+
+![Burp](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=hackthebox&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat-square)
+![Nmap](https://img.shields.io/badge/Nmap-0E83CD?style=flat-square)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+![Ghidra](https://img.shields.io/badge/Ghidra-FF0000?style=flat-square)
+![IDA](https://img.shields.io/badge/IDA_Pro-4B275F?style=flat-square)
+![Semgrep](https://img.shields.io/badge/Semgrep-4B11A8?style=flat-square)
+![ASan](https://img.shields.io/badge/ASan-000000?style=flat-square)
+
+![Kali](https://img.shields.io/badge/Kali-557C94?style=flat-square&logo=kalilinux&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Wazuh](https://img.shields.io/badge/Wazuh-3CBCE8?style=flat-square)
+![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
+![MITRE ATT&CK](https://img.shields.io/badge/ATT%26CK-ED1C24?style=flat-square)
+
+</div>
+
+<br>
+
+## Now
+
+```
+🔬  Fuzzing Meta's Hermes JS engine for memory corruption bugs
+🔍  Source code auditing high-star open-source projects
+⚡  Dual-LLM workflow — Claude for deep analysis, Codex for recon
+```
+
+<br>
+
+<div align="center">
+
+![CRTA](https://img.shields.io/badge/CRTA-DC143C?style=flat-square)
+![ISC² CC](https://img.shields.io/badge/ISC²_CC-006400?style=flat-square)
+![NCPT](https://img.shields.io/badge/NCPT-FF8C00?style=flat-square)
+![OCI](https://img.shields.io/badge/OCI_Architect-F80000?style=flat-square)
+
+<br>
+
+<img src="https://github-readme-stats.vercel.app/api?username=kuranikaran&show_icons=true&theme=transparent&hide_border=true&hide_title=true&text_color=888888&icon_color=888888" width="420" />
+
+<img src="https://komarev.com/ghpvc/?username=kuranikaran&style=flat-square&color=888888" />
+
+</div>
