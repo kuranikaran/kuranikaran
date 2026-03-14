@@ -14,7 +14,7 @@
 <br>
 
 ```
-CVEs Published          CVE-2026-32230)
+CVEs Published          CVE-2026-32230 | +2 CVE in Progress
 Organizations           14 (Apple · Meta · NASA · OpenAI · JPMC · Infosys …)
 Certs                   CRTA · ISC² CC · NCPT · OCI Architect
 TryHackMe               Top 1% | Seven Time League Winner #1
