@@ -77,9 +77,11 @@ PortSwigger             100+ Labs
 ## Now
 
 ```
-🔬  Fuzzing Meta's Hermes JS engine for memory corruption bugs
-🔍  Source code auditing high-star open-source projects
-⚡  Dual-LLM workflow — Claude for deep analysis, Codex for recon
+🔬 Fuzzing Fang engine's for memory corruption bugs
+🔍 Source code auditing high-star open-source projects
+⚡  Manual + Multi-LLM workflow 
+🏆 OSCP | BSCP Prep 
+🏴󠁡󠁦󠁷󠁡󠁲󠁿 Hands'on Offsec | THM | HTB | Portswigger
 ```
 
 <br>
