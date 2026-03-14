@@ -32,8 +32,8 @@ PortSwigger             100+ Labs
 | 🟡 Medium | Uptime Kuma ★83K | Missing authorization on monitor pings | [`CVE-2026-32230`](https://github.com/louislam/uptime-kuma/security/advisories/GHSA-c7hf-c5p5-5g6h) |
 | ✅ Fixed | Pretix | Log injection via `request_id_header` | [PR #5920](https://github.com/pretix/pretix/pull/5920) |
 | ✅ Fixed | Pretix OIDC | PKCE values logged to stdout | Responsible Disclosure |
-| ✅ Credited | n8n | Authorization bypass (IDOR) | [GHSA-q468-q2h7-p9cj](https://github.com/advisories?query=credit%3Akuranikaran) |
-| 🔧 Fix WIP | Metabase ★46K | Sharing bypass exposing datasets | Responsible Disclosure |
+| ✅ Duplicate | n8n | Authorization bypass (IDOR) | [GHSA-vh2p-7mqh-wwhw]([https://github.com/advisories?query=credit%3Akuranikaran](https://github.com/n8n-io/n8n/security/advisories/GHSA-vh2p-7mqh-wwhw)) |
+| ✅ Fixed  | Metabase ★46K | Sharing bypass exposing datasets | [GHSA-j3qp-7mr8-hr55)](https://github.com/metabase/metabase/security/advisories/GHSA-j3qp-7mr8-hr55) |
 | 🏆 Hall of Fame | JPMorgan Chase | Internal hostnames in prod JS | Synack RD #690 |
 
 <sub>Additional disclosures to NASA · OpenAI · Microsoft · Mercedes-Benz · Infosys (CERT-In acknowledged)</sub>
