@@ -28,12 +28,14 @@ PortSwigger             100+ Labs
 
 | Severity | Target | Finding | ID |
 |----------|--------|---------|-----|
-| 🔴 Critical | React / Next.js | RCE via exposed RSC endpoints on The Economic Time's | `CVE-2025-55182` |
+| 🔴 Critical | React / Next.js | RCE via exposed RSC endpoints on The Economic Times Admin Portal | `CVE-2025-55182` |
 | 🟡 Medium | Uptime Kuma ★83K | Missing authorization on monitor pings | [`CVE-2026-32230`](https://github.com/louislam/uptime-kuma/security/advisories/GHSA-c7hf-c5p5-5g6h) |
 | ✅ Fixed | Pretix | Log injection via `request_id_header` | [PR #5920](https://github.com/pretix/pretix/pull/5920) |
 | ✅ Fixed | Pretix OIDC | PKCE values logged to stdout | Responsible Disclosure |
 | ✅ Fixed  | Metabase ★46K | Sharing bypass exposing datasets | [GHSA-j3qp-7mr8-hr55)](https://github.com/metabase/metabase/security/advisories/GHSA-j3qp-7mr8-hr55) |
 | ⿻ Duplicate | n8n | Authorization bypass (IDOR) | [GHSA-vh2p-7mqh-wwhw]([https://github.com/advisories?query=credit%3Akuranikaran](https://github.com/n8n-io/n8n/security/advisories/GHSA-vh2p-7mqh-wwhw)) |
+| ⿻  Duplicate | n8n | Authenticated SSRF via `workflows/from-url` | [GHSA-7rp7-qh7m-h47v](https://github.com/n8n-io/n8n/security/advisories/GHSA-4239-f84r-mmhj) |
+| 🤝 Credited | Directus | Enumeration oracle via RBAC filter bypass | [GHSA-2xcm-7h22-3m66](https://github.com/directus/directus/security/advisories/GHSA-2xcm-7h22-3m66) |
 | 🏆 Hall of Fame | JPMorgan Chase | Internal hostnames in prod JS | Synack RD #690 |
 
 <sub>Additional disclosures to NASA · OpenAI · Microsoft · Mercedes-Benz · Infosys (CERT-In acknowledged)</sub>
