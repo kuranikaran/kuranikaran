@@ -14,7 +14,7 @@
 <br>
 
 ```
-CVEs Published          CVE-2026-32230 | +2 CVE in Progress
+CVEs Published          CVE-2026-32230 | Openclaw CVE-2026-35627| Netflix CVE-2026-44304 & CVE-2026-44305 | From Apple CVE-2026-28970 & CVE-2026-28898
 Organizations           14 (Apple · Meta · NASA · OpenAI · JPMC · Infosys …)
 Certs                   CRTA · ISC² CC · NCPT · OCI Architect
 TryHackMe               Top 1% | Seven Time League Winner #1
