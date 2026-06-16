@@ -37,13 +37,13 @@ PortSwigger             100+ Labs
 | Uptime Kuma | Medium | Missing authorization on monitor pings | [`CVE-2026-32230`](https://github.com/louislam/uptime-kuma/security/advisories/GHSA-c7hf-c5p5-5g6h) |
 | Apple/swift-nio-http2 | Low | HTTP/2 → HTTP/1 request smuggling via unvalidated `:path` pseudo-header | [`CVE-2026-28898`](https://github.com/apple/swift-nio-http2/security/advisories/GHSA-4px2-pw77-vc85) |
 | Openclaw | High | Nostr inbound DMs trigger crypto/dispatch work before sender-policy enforcement | [`CVE-2026-35627`](https://github.com/openclaw/openclaw/security/advisories/GHSA-65h8-27jh-q8wv) |
-| Microsoft/UFO | Medium | Unowned-session squatting via `COMMAND_RESULTS` → persistent authenticated DoS | [`GHSA-hxjv-fmjf-wmjf`](https://github.com/microsoft/UFO/security/advisories/GHSA-hxjv-fmjf-wmjf) |
+| Microsoft/UFO | Medium | Unowned-session squatting via `COMMAND_RESULTS` → persistent authenticated DoS | [`GHSA`](https://github.com/microsoft/UFO/security/advisories/GHSA-hxjv-fmjf-wmjf) |
 | Pretix | Medium | Log injection via `request_id_header` | [PR #5920](https://github.com/pretix/pretix/pull/5920) |
 | Pretix OIDC | Medium | PKCE values logged to stdout | Responsible Disclosure |
-| Metabase | Medium | Sharing bypass exposing datasets | [`GHSA-j3qp-7mr8-hr55`](https://github.com/metabase/metabase/security/advisories/GHSA-j3qp-7mr8-hr55) |
+| Metabase | Medium | Sharing bypass exposing datasets | [`GHSA`](https://github.com/metabase/metabase/security/advisories/GHSA-j3qp-7mr8-hr55) |
 | Ghidra/NSA | Low | Zip Slip path traversal (CWE-22) in Javadoc extraction; fix merged `9ce5c59`, shipped 12.1.3 | [Issue #9272](https://github.com/NationalSecurityAgency/ghidra/issues/9272) |
 | Google/fscrypt | Low | Symlink-following in recovery-file write → root `fchown` of attacker target under sudo | [PR #448](https://github.com/google/fscrypt/pull/448) |
-| Directus | Credited | Enumeration oracle via RBAC filter bypass | [GHSA-2xcm-7h22-3m66](https://github.com/directus/directus/security/advisories/GHSA-2xcm-7h22-3m66) |
+| Directus | Credited | Enumeration oracle via RBAC filter bypass | [`GHSA`](https://github.com/directus/directus/security/advisories/GHSA-2xcm-7h22-3m66) |
 | JPMorgan Chase | Hall of Fame | Internal hostnames in prod JS | [`Synack RD #690`](https://responsibledisclosure.jpmorganchase.com/hc/en-us/articles/360023828114-Recognition-for-Responsible-Disclosures#:~:text=Subadevan%20C-,Karan%20Kurani,-linkedin.com/in) |
 
 <sub>Additional disclosures to NASA · OpenAI · Microsoft · Mercedes-Benz · Infosys (CERT-In acknowledged)</sub>
