@@ -44,7 +44,7 @@ PortSwigger             100+ Labs
 | Ghidra/NSA | Low | Zip Slip path traversal (CWE-22) in Javadoc extraction; fix merged `9ce5c59`, shipped 12.1.3 | [Issue #9272](https://github.com/NationalSecurityAgency/ghidra/issues/9272) |
 | Google/fscrypt | Low | Symlink-following in recovery-file write → root `fchown` of attacker target under sudo | [PR #448](https://github.com/google/fscrypt/pull/448) |
 | Directus | Credited | Enumeration oracle via RBAC filter bypass | [GHSA-2xcm-7h22-3m66](https://github.com/directus/directus/security/advisories/GHSA-2xcm-7h22-3m66) |
-| JPMorgan Chase | Hall of Fame | Internal hostnames in prod JS | [`Synack RD #690`] https://responsibledisclosure.jpmorganchase.com/hc/en-us/articles/360023828114-Recognition-for-Responsible-Disclosures#:~:text=Subadevan%20C-,Karan%20Kurani,-linkedin.com/in) |
+| JPMorgan Chase | Hall of Fame | Internal hostnames in prod JS | [`Synack RD #690`](https://responsibledisclosure.jpmorganchase.com/hc/en-us/articles/360023828114-Recognition-for-Responsible-Disclosures#:~:text=Subadevan%20C-,Karan%20Kurani,-linkedin.com/in) |
 
 <sub>Additional disclosures to NASA · OpenAI · Microsoft · Mercedes-Benz · Infosys (CERT-In acknowledged)</sub>
 
