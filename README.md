@@ -26,15 +26,23 @@ PortSwigger             100+ Labs
 
 ## CVEs & Credited Findings
 
+🔴 Critical · 🟠 High · 🟡 Medium · 🟢 Low · 🤝 Credited · 🏆 Hall of Fame
+
 | Severity | Target | Finding | ID |
 |----------|--------|---------|-----|
 | 🔴 Critical | React / Next.js | RCE via exposed RSC endpoints on The Economic Times Admin Portal | `CVE-2025-55182` |
+| 🟠 High | openclaw ★379K | Nostr inbound DMs trigger crypto/dispatch work before sender-policy enforcement | [`GHSA-65h8-27jh-q8wv`](https://github.com/openclaw/openclaw/security/advisories/GHSA-65h8-27jh-q8wv) |
+| 🟠 High | Netflix Lemur | LDAP filter injection → post-auth privilege escalation to admin | [`CVE-2026-44304`](https://github.com/Netflix/lemur/security/advisories/GHSA-3r34-vq8m-39gh) |
+| 🟡 Medium | Netflix Lemur | LDAP TLS verification globally disabled → credential interception (MITM) | [`CVE-2026-44305`](https://github.com/Netflix/lemur/security/advisories/GHSA-vr7c-r5gj-j3w5) |
+| 🟡 Medium | swift-nio (Apple) | CRLF injection in outbound request URI / method / reason-phrase → smuggling & response splitting | [`CVE-2026-28970`](https://github.com/apple/swift-nio/security/advisories/GHSA-cq87-8r7h-962v) |
+| 🟡 Medium | Microsoft UFO ★9K | Unowned-session squatting via `COMMAND_RESULTS` → persistent authenticated DoS | [`GHSA-hxjv-fmjf-wmjf`](https://github.com/microsoft/UFO/security/advisories/GHSA-hxjv-fmjf-wmjf) |
 | 🟡 Medium | Uptime Kuma ★83K | Missing authorization on monitor pings | [`CVE-2026-32230`](https://github.com/louislam/uptime-kuma/security/advisories/GHSA-c7hf-c5p5-5g6h) |
-| ✅ Fixed | Pretix | Log injection via `request_id_header` | [PR #5920](https://github.com/pretix/pretix/pull/5920) |
-| ✅ Fixed | Pretix OIDC | PKCE values logged to stdout | Responsible Disclosure |
-| ✅ Fixed  | Metabase ★46K | Sharing bypass exposing datasets | [GHSA-j3qp-7mr8-hr55)](https://github.com/metabase/metabase/security/advisories/GHSA-j3qp-7mr8-hr55) |
-| ⿻ Duplicate | n8n | Authorization bypass (IDOR) | [GHSA-vh2p-7mqh-wwhw]([https://github.com/advisories?query=credit%3Akuranikaran](https://github.com/n8n-io/n8n/security/advisories/GHSA-vh2p-7mqh-wwhw)) |
-| ⿻  Duplicate | n8n | Authenticated SSRF via `workflows/from-url` | [GHSA-7rp7-qh7m-h47v](https://github.com/n8n-io/n8n/security/advisories/GHSA-4239-f84r-mmhj) |
+| 🟡 Medium | Pretix | Log injection via `request_id_header` | [PR #5920](https://github.com/pretix/pretix/pull/5920) |
+| 🟡 Medium | Pretix OIDC | PKCE values logged to stdout | Responsible Disclosure |
+| 🟡 Medium | Metabase ★46K | Sharing bypass exposing datasets | [`GHSA-j3qp-7mr8-hr55`](https://github.com/metabase/metabase/security/advisories/GHSA-j3qp-7mr8-hr55) |
+| 🟢 Low | swift-nio-http2 (Apple) | HTTP/2 → HTTP/1 request smuggling via unvalidated `:path` pseudo-header | [`CVE-2026-28898`](https://github.com/apple/swift-nio-http2/security/advisories/GHSA-4px2-pw77-vc85) |
+| 🟢 Low | Ghidra ★70K (NSA) | Zip Slip path traversal (CWE-22) in Javadoc extraction; fix merged `9ce5c59`, shipped 12.1.3 | [Issue #9272](https://github.com/NationalSecurityAgency/ghidra/issues/9272) |
+| 🟢 Low | google/fscrypt | Symlink-following in recovery-file write → root `fchown` of attacker target under sudo | [PR #448](https://github.com/google/fscrypt/pull/448) |
 | 🤝 Credited | Directus | Enumeration oracle via RBAC filter bypass | [GHSA-2xcm-7h22-3m66](https://github.com/directus/directus/security/advisories/GHSA-2xcm-7h22-3m66) |
 | 🏆 Hall of Fame | JPMorgan Chase | Internal hostnames in prod JS | Synack RD #690 |
 
