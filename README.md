@@ -36,7 +36,7 @@ PortSwigger             100+ Labs
 | Apple/swift-nio | Medium | CRLF injection in outbound request URI / method / reason-phrase → smuggling & response splitting | [`CVE-2026-28970`](https://github.com/apple/swift-nio/security/advisories/GHSA-cq87-8r7h-962v) |
 | Uptime Kuma | Medium | Missing authorization on monitor pings | [`CVE-2026-32230`](https://github.com/louislam/uptime-kuma/security/advisories/GHSA-c7hf-c5p5-5g6h) |
 | Apple/swift-nio-http2 | Low | HTTP/2 → HTTP/1 request smuggling via unvalidated `:path` pseudo-header | [`CVE-2026-28898`](https://github.com/apple/swift-nio-http2/security/advisories/GHSA-4px2-pw77-vc85) |
-| Openclaw | High | Nostr inbound DMs trigger crypto/dispatch work before sender-policy enforcement | [`GHSA-65h8-27jh-q8wv`](https://github.com/openclaw/openclaw/security/advisories/GHSA-65h8-27jh-q8wv) |
+| Openclaw | High | Nostr inbound DMs trigger crypto/dispatch work before sender-policy enforcement | [`CVE-2026-35627`](https://github.com/openclaw/openclaw/security/advisories/GHSA-65h8-27jh-q8wv) |
 | Microsoft/UFO | Medium | Unowned-session squatting via `COMMAND_RESULTS` → persistent authenticated DoS | [`GHSA-hxjv-fmjf-wmjf`](https://github.com/microsoft/UFO/security/advisories/GHSA-hxjv-fmjf-wmjf) |
 | Pretix | Medium | Log injection via `request_id_header` | [PR #5920](https://github.com/pretix/pretix/pull/5920) |
 | Pretix OIDC | Medium | PKCE values logged to stdout | Responsible Disclosure |
