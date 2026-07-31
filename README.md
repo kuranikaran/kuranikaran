@@ -15,11 +15,12 @@
 
 ```
 CVEs Published          7x CVE's ( CVE-2026-28970, CVE-2026-28898, CVE-2026-44304, CVE-2026-44305, CVE-2026-35627, CVE-2026-32230 & more )
-Organizations           14 (Apple · Meta · NASA · OpenAI · JPMC · Infosys …)
+Organizations           14 (Apple · Google · OpenAI · JPMC · Netflix)
 Certs                   CRTA · ISC² CC · NCPT · OCI Architect
 TryHackMe               Top 1% | Seven Time League Winner #1
 NCL                     Top 7% National · #1 at Pace
-PortSwigger             100+ Labs
+PortSwigger             50+ Labs
+HOF                     P1 2x NASA, JP Morgan & Chase, Clickhouse
 ```
 
 <br>
